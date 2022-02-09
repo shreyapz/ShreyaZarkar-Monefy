@@ -13,7 +13,7 @@ Suite Teardown          Close the application
 Test Case - Add income to any category and check the income is reflected in Pie chart
     check the home page
     ${OldAmount}        get the income value from home screen
-    Add the amount to income screen         q
+    Add the amount to income screen
     Enter the amount        ${1}
     enter the amount        ${0}
     ${NewAmount}        check the entered value in input text box      10
