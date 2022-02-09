@@ -37,4 +37,5 @@ Test Case - check the Balace is calculated correctly
 
 Test Case - check the options under open navigation and settings
     check the options for open navigation
+    go back
     check the settings options
