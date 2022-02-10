@@ -41,5 +41,33 @@ Test Execution
 - Start the appium desktop server.
 - Make sure the port you are using for Appium server are same as the one you pass in the test case. 
 - also check for the device UUID and the android version of your devices matches the arguments in the test file
-- in the console of Pycharm. enter the execution command: Robot -d results MonifyTestCases.robot
+- in the console of Pycharm navigate to results folder and enter the execution command: Robot -d results MonifyTestCases.robot
 - Execute the files which are in Test case folder.
+
+Task 2- 
+A list of ideas/bullet points you would test for. Focus on good coverage, rather than complete test cases.
+- check the onboarding screen UI
+- check the UI of Plan upgrade screen
+- check the home page
+- get the income value from home screen
+- Add the amount to income screen
+- check the income category items
+- check the income added on Home screen (addition of previously added incomes + newly added income)
+- get the expense value from home screen
+- Add the amount to expense screen
+- check the expense category items
+- check the expense added on Home screen (addition of previously added expenses + newly added expense)
+- Verify Balance amount is calculated correctly (income-expenses)
+- check the options for open navigation
+- check the settings options
+    
+A prioritization of such test cases according to their possible business impact in case of failure.
+-Add income to any category and check the income is reflected in Pie chart
+-Add expense to any category and check the expense is reflected in Pie chart
+-check the Balace is calculated correctly
+
+Please explain your approach and why you chose the particular tech stack
+-chose android app to automate using appium and robot framework
+-configuring android app is quicker in terms of time contraints.
+-Appium is open source automation tool which supports native and hybrid applications.
+- Robot framework is quick to setup and get started with it. redability of test cases and its steps are redable. great report genartion tool.  
