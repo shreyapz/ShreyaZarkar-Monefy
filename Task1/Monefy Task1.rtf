@@ -1,0 +1,94 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 ArialMT;
+}
+{\colortbl;\red255\green255\blue255;\red46\green49\blue51;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c23529\c25098\c26275;\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18220\viewh13920\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 Selected device for Testing- Samsung Galaxy S9 (Android 10)\
+\
+About the application Monefy\
+- Monefy is a wallet management app that manages keeps the track of expenses made, income/savings of users. \
+- User has several options to add their expenses in the category of food, home, car, transportation etc. \
+- User can also keep the track of savings in terms of salary, deposits ects\
+- Monefy app calculates the balance amount based on the values of income and expenses provided by the user\
+- User also has the option to upgrade to unlock the features of the app like dark mode, Passcode protection, Adding new expense or income categories.\
+- User can select either Day, Week, Month, Year etc to add expenses 
+\fs24 \
+\
+\
+
+\f1\b\fs36 Exploratory testing charters
+\f0\b0  -
+\fs24 \
+\
+\
+
+\fs36 1. Explore the New income component with given numbers to discover if the data is reflected correctly in the Balance\
+- in this component all the values added as part of either Deposit, salary, savings was reflected correctly in the Balance\
+- The input field to add the income works as expected in terms of calculations and the data is stored correctly in the balance\
+\
+2. Explore the New income component with given numbers to discover if the data is reflected correctly in the Balance\
+- in this component all the values added as part of either Deposit, salary, savings was reflected correctly in the Balance\
+- The input field to add the income works as expected in terms of calculations and the data is stored correctly in the balance\
+\
+3. Explore the Expense categories with given numbers/test data to discover the correctness of percentage in the Balance pie chart\
+- Expenses were added in the given category such as House, car, Bills ect and checked if the numbers were reflected in the balance chart\
+- user is able to tap on the specific expense category and add the expense to it. \
+\
+4. Explore the premium service payment method with a valid credit/debit card to discover if the premium service to use the app is purchased.\
+- checked if clicking on \'91CLAIM MY OFFER\'92 redirects the user to Google pay\
+- checked only UI as the payment was not needed to be done by the candidate\
+- services like dark mode, Passcode protection, Adding new expense or income categories etc to be unlocked after successful purchase of premium service. \
+\
+5. Explore the format of the calendar with different dates as input to discover if the desired duration is seen on the home screen \
+\
+6. Explore the currency change option to discover all the values are reflected in the desired currency\
+- Currency change is working as expected although the application does not follow the format of the number system for a different currency. For example, 
+\f2 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\'80
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0  100,00 means 100 euros. If the User changes the currency to INR(Indian rupees) and adds expense as 100 rupees, the application displays 100 rupees as 100,00 which is actually ten thousand in rupees. the application should display 100.00 instead of 100,00 when a user enters 100\
+\
+7. Explore the change in language to discover if the language change works as expected. \
+\
+\
+
+\f1\b Findings from your charters. Did everything work as expected? What bugs were discovered?
+\f0\b0 \
+\
+The application worked as expected however found some bugs. Refer file \'93Menify Bugs.xlsx\'94 for bugs.\
+\
+
+\f1\b Prioritisation of those charters - which area of the app or testing would you explore first and why?\
+
+\f0\b0 - Charters are written as per prioritisation.\
+- explore charters 1 and 2 first as they are the income and expense charter. Reason: As Income and expense categories are shown first after the user opens the app, exploring these two components gives the idea of what the application is intended for. \
+- Explore the third charter to check if all the categories of expenses are added together and they are reduced from the given income to get the Balance\
+- Explore the fourth charter to see if users can unlock some features after successfully purchasing the premium service. \
+6. explore the fifth charter to see if the user can see the desired calendar duration on the home screen after selecting specified format such as Day, Week, Month etc. \
+7. exploring the sixth charter to verify if user can change the currency and use the app accordingly. \
+8. exploring the seventh charter to check if user can use the app in the desired language. \
+\
+
+\f1\b How much time you have planned for each charter?\
+
+\f0\b0 Charter 1: 30 mins\
+Charter 2: 30 mins\
+Charter 3: 60 mins\
+Charter 4: 15 mins\
+Charter 5: 30 mins\
+Charter 6: 20 mins\
+Charter 7: 20 mins\
+\
+
+\f1\b What kind of risks you need to mitigate for this type of application?\
+
+\f0\b0 - Users will add the information regarding salary, savings, expenditures so these data must be kept secure and not be shared/leaked by the application to keep the data privacy intact. \
+- Access to the database must be very limited. 
+\fs24 \
+\
+\
+\
+\
+}
