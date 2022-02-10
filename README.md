@@ -5,11 +5,11 @@ Task1->
 - Monefy Bugs.xlsx
 
 Task2_Automation->
--Automation folders
--Reports can be found under TestCases/result/report.html
+- Automation folders
+- Reports can be found under TestCases/result/report.html
 
 Task2_Recording.mov->
--Recording of execution
+- Recording of execution
 
 
 Android automation using ROBOT FRAMEWORK + APPIUM + PYTHON
