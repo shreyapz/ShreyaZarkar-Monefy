@@ -11,6 +11,7 @@ Task2_Automation->
 Task2_Recording.mov->
 - Recording of execution
 
+Details of automation project->
 
 Android automation using ROBOT FRAMEWORK + APPIUM + PYTHON
 
