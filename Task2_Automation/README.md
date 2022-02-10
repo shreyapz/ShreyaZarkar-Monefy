@@ -62,12 +62,12 @@ A list of ideas/bullet points you would test for. Focus on good coverage, rather
 - check the settings options
     
 A prioritization of such test cases according to their possible business impact in case of failure.
--Add income to any category and check the income is reflected in Pie chart
--Add expense to any category and check the expense is reflected in Pie chart
--check the Balace is calculated correctly
+- Add income to any category and check the income is reflected in Pie chart
+- Add expense to any category and check the expense is reflected in Pie chart
+- check the Balace is calculated correctly
 
 Please explain your approach and why you chose the particular tech stack
--chose android app to automate using appium and robot framework
--configuring android app is quicker in terms of time contraints.
--Appium is open source automation tool which supports native and hybrid applications.
+- chose android app to automate using appium and robot framework
+- configuring android app is quicker in terms of time contraints.
+- Appium is open source automation tool which supports native and hybrid applications.
 - Robot framework is quick to setup and get started with it. redability of test cases and its steps are redable. great report genartion tool.  
